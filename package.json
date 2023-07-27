@@ -1,0 +1,9 @@
+{
+  "name": "yarn-bug",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+  	"@lavamoat/allow-scripts": "^2.3.1"
+  }
+}

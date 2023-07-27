@@ -1,0 +1,39 @@
+Arguments: 
+  /home/danjm/.nvm/versions/node/v16.20.0/bin/node /home/danjm/.nvm/versions/node/v16.20.0/bin/yarn
+
+PATH: 
+  /home/danjm/.nvm/versions/node/v16.20.0/bin:/home/danjm/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.20.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/danjm/metamask/yarn-bug/package.json: Unexpected token } in JSON at position 153
+      at JSON.parse (<anonymous>)
+      at /home/danjm/.nvm/versions/node/v16.20.0/lib/node_modules/yarn/lib/cli.js:1629:59
+      at Generator.next (<anonymous>)
+      at step (/home/danjm/.nvm/versions/node/v16.20.0/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /home/danjm/.nvm/versions/node/v16.20.0/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "yarn-bug",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+    	"@lavamoat/allow-scripts": "^2.3.1",
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
